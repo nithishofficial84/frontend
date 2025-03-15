@@ -1,0 +1,40 @@
+name: ev_charging_app
+description: Electric Vehicle Charging Station App
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Core Firebase packages
+  firebase_core: ^2.15.0
+  firebase_auth: ^4.7.2
+  cloud_firestore: ^4.8.4
+
+  # UI and Animation
+  animations: ^2.0.7
+  cupertino_icons: ^1.0.2
+
+  # Mapping and Location
+  google_maps_flutter: ^2.3.1
+  geolocator: ^9.0.2
+
+  # State Management
+  provider: ^6.0.5
+
+  # Utility Packages
+  intl: ^0.18.1
+  cached_network_image: ^3.2.3
+
+  # Rating and Feedback
+  flutter_rating_bar: ^4.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
